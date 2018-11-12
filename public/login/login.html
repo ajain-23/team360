@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="https://cdn3.iconfinder.com/data/icons/flat-ui/500/54-128.png" type="image/png" />
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/magnific-popup.css">
+	<link rel="stylesheet" href="../css/jquery-ui.css">
+	<link rel="stylesheet" href="../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500">
+	<link rel="stylesheet" href="../fonts/icomoon/style.css">
+
+	<link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="../css/aos.css">
+
+	<link rel="stylesheet" href="../css/style.css">
+<!--===============================================================================================-->
+</head>
+<body>
+<div style="background-image:url('../images/loginbg.png');" id = "login">
+	<div class="site-mobile-menu">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close mt-3">
+				<span class="icon-close2 js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div> <!-- .site-mobile-menu -->
+
+
+	<div class="site-navbar-wrap" style="background-color:#485257;">
+    <div class="site-navbar">
+      <div class="container py-1">
+        <div class="row align-items-center">
+          <div class="col-2">
+            <h2 class="mb-0 site-logo"><a href="../index.html"><img src="../images/logo.png" style="width:111.75px;height:54.75px;" alt="logo"/></a></h2>
+          </div>
+          <div class="col-10">
+            <nav class="site-navigation text-right" role="navigation">
+              <div class="container">
+                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+                <ul class="site-menu js-clone-nav d-none d-lg-block">
+                  <li><a href="../register/register.html" style="color:white;">Register</a></li>
+                  <li><a href="../login/login.html" style="color:white;">Login</a></li>
+                  <li><a href="../about.html" style="color:white;">About</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100" id="login_div" style="background-image: url('images/bg.jpg');">
+				<form class="login100-form validate-form">
+					<center><img src="https://i.imgur.com/pMpQQoO.png" style="width:67.2px;height:76.6px;" alt="logo"/></center>
+
+					<span class="login100-form-title p-b-20 p-t-27" style="text-transform: lowercase;">
+						Login
+					</span>
+
+					<div class="validlogin" id="invalid">Invalid Login. Please try again!</div>
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="username" id="email_field">
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<input class="input100" type="password" name="pass" placeholder="password" id="password_field">
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+
+					<div class="contact100-form-checkbox">
+						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+						<label class="label-checkbox100" for="ckb1">
+							remember me
+						</label>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button type="submit" type = "button" onclick="signin()" class="login100-form-btn" onsubmit="return false" style="text-transform: lowercase;">
+							Login
+						</button>
+					</div>
+
+					<div class="text-center p-t-90">
+						<a class="txt1" href="#">
+							Forgot Password?
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer class="site-footer" style="background-color:white;background-image: url("images/bg.jpg");height: 100%;">
+		<div class="container">
+			<div class="row pt-1 mt-1 text-center">
+				<div class="col-md-12">
+					<p>
+					Copyright &copy; All Rights Reserved | Powered by eDark</a>
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<div id="dropDownSelect1"></div>
+</div>
+
+<div id = "student" hidden>
+	<div id="dashboard">
+	  <div class="site-wrap">
+		<div class="site-mobile-menu">
+			<div class="site-mobile-menu-header">
+				<div class="site-mobile-menu-close mt-3">
+					<span class="icon-close2 js-menu-toggle"></span>
+				</div>
+			</div>
+			<div class="site-mobile-menu-body"></div>
+		</div> <!-- .site-mobile-menu -->
+
+
+	  <div class="site-navbar-wrap" style="background-color:#485257;">
+	    <div class="site-navbar">
+	      <div class="container py-1">
+	        <div class="row align-items-center">
+	          <div class="col-2">
+	            <h2 class="mb-0 site-logo"><a href="../index.html"><img src="../images/logo.png" style="width:111.75px;height:54.75px;" alt="logo"/></a></h2>
+	          </div>
+	          <div class="col-10">
+	            <nav class="site-navigation text-right" role="navigation">
+	              <div class="container">
+	                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+	                <ul class="site-menu js-clone-nav d-none d-lg-block">
+	                  <li><a href="../register/register.html" style="color:white;">Register</a></li>
+	                  <li><a href="../login/login.html" style="color:white;">Login</a></li>
+	                  <li><a href="../about.html" style="color:white;">About</a></li>
+	                </ul>
+	              </div>
+	            </nav>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  </div>
+	  <div class="site-section" style="background-image: url('images/bg.jpg');">
+	    <div class="container">
+	      <div class="row">
+	        <div style="background-image: url('images/together.jpg');" data-aos="fade-up"></div>
+	        <div class="col-md-6 pr-md-5 order-md-1">
+	          <h1 class="text-white mb-4" style="padding-bottom:4%;">welcome, <strong id="dbname"></strong></h1>
+	          <h2 class="display-5 text-white" style="margin:0% auto;width: 250%;position:absolute;width:90%;top:1%;left:108%;">your student dashboard</h2>
+	          <h3 class="text-white" style="text-decoration: underline;position:absolute;top:8%;"><a target="_blank" style="color:white;" href="https://docs.google.com/forms/d/e/1FAIpQLScm_JqIX7_RlHMtZmv9vd0DxtXVwmcKHLLwKJH3dD54SKAvDQ/viewform?usp=sf_link">give feedback to your team</a></h3>
+						<div class='parent flex-parent'>
+							<div class="child"><h2 class="display-5 line-height-xs text-white mb-4" style="position:relative;top:140%;right:0%;">your performance</h2></div>
+							<div class="child"><h2 class="display-5 line-height-xs text-white mb-4" style="position:relative;top:140%;left: 140%;width: 100%">feedback for <strong>you</strong>:</h2></div>
+						</div>
+						<div class='parent flex-parent'>
+						<div class="child" id="radar" style="position:relative;left:-7%;"></div>
+						<div><div onclick="adj()" class="display-5 line-height-xs text-white mb-4" id="adjectives" style="text-decoration: underline;margin:0% auto;width: 50%;position:absolute;top:45%;left:110%;font-size:17px">your adjectives ▼</div></div>
+
+						<div><div onclick="strn()" class="display-5 line-height-xs text-white mb-4" id="adjectives" style="text-decoration: underline;margin:0% auto;width: 50%;position:absolute;top:50%;left:110%;font-size:17px">strengths ▼</div></div>
+						<div><div onclick="improve()" class="display-5 line-height-xs text-white mb-4" id="adjectives" style="text-decoration: underline;margin:0% auto;width: 50%;position:absolute;top:55%;left:110%;font-size:17px">areas to improve ▼</div></div>
+						<div><div onclick="generalfb()" class="display-5 line-height-xs text-white mb-4" id="adjectives" style="text-decoration: underline;margin:0% auto;width: 50%;position:absolute;top:60%;left:110%;font-size:17px">general ▼</div></div>
+						<div id="adj" class="display-5 line-height-xs text-white mb-4" style="display:none;margin:0% auto;width: 100%;position:absolute;top:70%;left:110%;font-size:17px">Cool, Calm, and Collected</div>
+						<div id="strn" class="display-5 line-height-xs text-white mb-4" style="display:none;margin:0% auto;width: 100%;position:absolute;top:70%;left:110%;font-size:17px">Many strengths, little time</div>
+						<div id="impmt" class="display-5 line-height-xs text-white mb-4" style="display:none;margin:0% auto;width: 100%;position:absolute;top:70%;left:110%;font-size:17px">Here, there, everywhere</div>
+						<div id="ir" class="display-5 line-height-xs mb-4" style="color:#89a38d;display:none;margin:0% auto;width: 95%;position:absolute;top:70%;left:110%;font-size:17px">Projected Insight Rating: Sentiment Score: 0.7 | Magnitude 0.9 - Very Positive</div>
+						<div id="fdbk" class="display-5 line-height-xs text-white mb-4" style="display:none;margin:0% auto;width: 100%;position:absolute;top:80%;left:110%;font-size:17px"	>Insert Paragraph One Here</div>
+
+					</div>
+	        </div>
+	      </div>
+	    </div>
+	    <br></br><br></br><br>
+	  </div>
+	  <!--
+	  <footer class="site-footer" style="background-image: url('images/bg.jpg');">
+			<div class="container">
+				<div class="row pt-1 mt-1 text-center">
+					<div class="col-md-12">
+						<p>
+						Copyright &copy; All Rights Reserved | Powered by eDark</a>
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</footer> -->
+
+		<div id="dropDownSelect1"></div>
+	</div>
+</div>
+
+<div id="admin" hidden>
+	<div id="admindashboard">
+		<div class="site-wrap">
+		<div class="site-mobile-menu">
+			<div class="site-mobile-menu-header">
+				<div class="site-mobile-menu-close mt-3">
+					<span class="icon-close2 js-menu-toggle"></span>
+				</div>
+			</div>
+			<div class="site-mobile-menu-body"></div>
+		</div> <!-- .site-mobile-menu -->
+
+
+		<div class="site-navbar-wrap" style="background-color:#485257;">
+			<div class="site-navbar">
+				<div class="container py-1">
+					<div class="row align-items-center">
+						<div class="col-2">
+							<h2 class="mb-0 site-logo"><a href="../index.html"><img src="../images/logo.png" style="width:111.75px;height:54.75px;" alt="logo"/></a></h2>
+						</div>
+						<div class="col-10">
+							<nav class="site-navigation text-right" role="navigation">
+								<div class="container">
+									<div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+									<ul class="site-menu js-clone-nav d-none d-lg-block">
+										<li><a href="../register/register.html" style="color:white;">Register</a></li>
+										<li><a href="../login/login.html" style="color:white;">Login</a></li>
+										<li><a href="../about.html" style="color:white;">About</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="site-section" style="background-image: url('images/bg.jpg');">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 pr-md-5 order-md-1">
+						<h1 class="text-white mb-4" style="padding-bottom:4%;">welcome, <strong id="dbname"></strong></h1>
+						<h2 class="display-5 text-white" style="margin:0% auto;width: 90%;position:absolute;top:1%;left:108%;">your administrator dashboard</h2>
+						<a target="_blank" class="text-white" href="https://docs.google.com/spreadsheets/d/1wglcdi03JQsiTLEW0EMlng8uXAoXyI60oktChqUjPrA/edit?usp=sharing"><h3 class="text-white" style="text-decoration:underline;position:absolute;top:125%;"><strong style="color:#7b8faf;">view </strong>class data  + grades</h3></a>
+						<div style='position:absolute;top:13%;left:20%;width:100%;height:200%;'>
+							<!-- <div style="position:absolute;top:220%;left:3%;width:110%;"><h2 class="display-5 line-height-xs text-white mb-4">view your <strong>teams</strong> ▼</h2></div. -->
+							<h2 id="teamview" class="display-5 line-height-xs text-white mb-4" style="font-size:25px;text-decoration:underline;position:absolute;top:85%;left:87.5%;width:50%;">PROJECT 1+2: ATTENDY</h2>
+							<img id="teamview1" src= "https://i.imgur.com/R1zOPCL.png" style="position:absolute;top:110%;left:87.5%;width:73%;height:150%;margin-bottom:8%;"/></img>
+							<h2 id="teamview2" class="display-5 line-height-xs text-white mb-4" style="font-size:25px;text-decoration:underline;position:relative;top:280%;left:87.5%;width:50%;">PROJECT 3: 360</h2>
+							<img id="teamview3" src= "https://i.imgur.com/dAAvbu6.png" style='position:absolute;top:303%;left:87.5%;width:73%;height:150%;'/></img>
+						</div>
+						<div style='background-position: 20% 20%'>
+						<input id="testinput" style='position:absolute;top:92%;left:108%;' type="text" name="name" placeholder="First and Last Name..."/>
+						<button type="button" style='position:absolute;top:80%;left:143%;height:50px;width:200px' class="login100-form-btn" onclick="getstudent()" onsubmit="return false">See Student Dashboard</button>
+						<div><h2 class="display-5 line-height-xs text-white mb-4" style="position:absolute;top:400%;left:3%;width:110%;">how we calculate grades</h2></div>
+						<img src= "https://i.imgur.com/uapxZGw.png" style='position:absolute;top:450%;left:0%;width:540px;height:245px;'/></img>
+						<img src= "https://i.imgur.com/aPaMyV3.png" style='position:absolute;top:750%;width:540px;height:125px;'/></img>
+					</div>
+					</div>
+				</div>
+			</div>
+			<br></br><br></br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+		<!--
+		<footer class="site-footer" style="background-image: url('images/bg.jpg');">
+			<div class="container">
+				<div class="row pt-1 mt-1 text-center">
+					<div class="col-md-12">
+						<p>
+						Copyright &copy; All Rights Reserved | Powered by eDark</a>
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</footer> -->
+
+		<div id="dropDownSelect1"></div>
+	</div>
+	<div id = "studentforadmin" style="display:none;">
+		<div id="dashboard">
+		  <div class="site-wrap">
+			<div class="site-mobile-menu">
+				<div class="site-mobile-menu-header">
+					<div class="site-mobile-menu-close mt-3">
+						<span class="icon-close2 js-menu-toggle"></span>
+					</div>
+				</div>
+				<div class="site-mobile-menu-body"></div>
+			</div> <!-- .site-mobile-menu -->
+
+
+		  <div class="site-navbar-wrap" style="background-color:#485257;">
+		    <div class="site-navbar">
+		      <div class="container py-1">
+		        <div class="row align-items-center">
+		          <div class="col-2">
+		            <h2 class="mb-0 site-logo"><a href="../index.html"><img src="../images/logo.png" style="width:111.75px;height:54.75px;" alt="logo"/></a></h2>
+		          </div>
+		          <div class="col-10">
+		            <nav class="site-navigation text-right" role="navigation">
+		              <div class="container">
+		                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+		                <ul class="site-menu js-clone-nav d-none d-lg-block">
+		                  <li><a href="../register/register.html" style="color:white;">Register</a></li>
+		                  <li><a href="../login/login.html" style="color:white;">Login</a></li>
+		                  <li><a href="../about.html" style="color:white;">About</a></li>
+		                </ul>
+		              </div>
+		            </nav>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		  </div>
+		  <div class="site-section" style="background-image: url('images/bg.jpg');">
+		    <div class="container">
+		      <div class="row">
+		        <div class="col-md-6 pr-md-5 order-md-1">
+		          <h1 class="text-white mb-4" style="padding-bottom:4%;">viewing student: <strong id="dbname1"></strong></h1>
+		          <h2 class="display-5 text-white" onclick="returnadmin()" onsubmit="return false" style="text-decoration:underline;margin:0% auto;width: 90%;position:absolute;top:1%;left:108%;">return to admin dashboard</h2>
+							<div class='parent flex-parent'>
+								<div class="child"><h2 class="display-5 line-height-xs text-white mb-4" style="position:relative;top:140%;right:0%;">your performance</h2></div>
+								<div class="child"><h2 class="display-5 line-height-xs text-white mb-4" style="position:relative;top:140%;left: 140%;">feedback for <strong>you</strong>:</h2></div>
+							</div>
+							<div class='parent flex-parent'>
+							<div class="child" id="radar" style="position:relative;left:-7%;"></div>
+							<div><div onclick="adj1()" class="display-5 line-height-xs text-white mb-4" id="adjectives" style="text-decoration: underline;margin:0% auto;width: 50%;position:absolute;top:45%;left:110%;font-size:17px">your adjectives ▼</div></div>
+
+							<div><div onclick="strn1()" class="display-5 line-height-xs text-white mb-4" id="adjectives" style="text-decoration: underline;margin:0% auto;width: 50%;position:absolute;top:50%;left:110%;font-size:17px">strengths ▼</div></div>
+							<div><div onclick="improve1()" class="display-5 line-height-xs text-white mb-4" id="adjectives" style="text-decoration: underline;margin:0% auto;width: 50%;position:absolute;top:55%;left:110%;font-size:17px">areas to improve ▼</div></div>
+							<div><div onclick="generalfb1()" class="display-5 line-height-xs text-white mb-4" id="adjectives" style="text-decoration: underline;margin:0% auto;width: 50%;position:absolute;top:60%;left:110%;font-size:17px">general ▼</div></div>
+							<div id="adj1" class="display-5 line-height-xs text-white mb-4" style="display:none;margin:0% auto;width: 100%;position:absolute;top:70%;left:110%;font-size:17px">Cool, Calm, and Collected</div>
+							<div id="strn1" class="display-5 line-height-xs text-white mb-4" style="display:none;margin:0% auto;width: 100%;position:absolute;top:70%;left:110%;font-size:17px">Many strengths, little time</div>
+							<div id="impmt1" class="display-5 line-height-xs text-white mb-4" style="display:none;margin:0% auto;width: 100%;position:absolute;top:70%;left:110%;font-size:17px">Here, there, everywhere</div>
+							<div id="ir1" class="display-5 line-height-xs mb-4" style="color:#89a38d;display:none;margin:0% auto;width: 95%;position:absolute;top:70%;left:110%;font-size:17px">Projected Insight Rating: Sentiment Score: 0.7 | Magnitude 0.9 - Very Positive</div>
+							<div id="fdbk1" class="display-5 line-height-xs text-white mb-4" style="display:none;margin:0% auto;width: 100%;position:absolute;top:80%;left:110%;font-size:17px"	>Insert Paragraph One Here</div>
+						</div>
+		        </div>
+		      </div>
+		    </div>
+		    <br></br><br></br><br>
+		  </div>
+		  <!--
+		  <footer class="site-footer" style="background-image: url('images/bg.jpg');">
+				<div class="container">
+					<div class="row pt-1 mt-1 text-center">
+						<div class="col-md-12">
+							<p>
+							Copyright &copy; All Rights Reserved | Powered by eDark</a>
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</footer> -->
+
+			<div id="dropDownSelect1"></div>
+		</div>
+	</div>
+</div>
+<!--===============================================================================================-->
+	<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<!--===============================================================================================-->
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyDTzTXsi4bWicN2SNou8YJQcNEqLxy-IdA",
+	    authDomain: "team360-v3.firebaseapp.com",
+	    databaseURL: "https://team360-v3.firebaseio.com",
+	    projectId: "team360-v3",
+	    storageBucket: "team360-v3.appspot.com",
+	    messagingSenderId: "202279394681"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+  <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../js/jquery-ui.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/jquery.stellar.min.js"></script>
+  <script src="../js/jquery.countdown.min.js"></script>
+  <script src="../js/jquery.magnific-popup.min.js"></script>
+  <script src="../js/bootstrap-datepicker.min.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/main.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>
