@@ -1,7 +1,168 @@
 var firstnames = {
-  "hidden":"for privacy's sake"
+  "Ayush Jain": "ayush.jain@berkeley.edu",
+  "ayush.jain@berkeley.edu": "Ayush",
+
+  "Kai Chorazewicz": "k.chorazewicz@berkeley.edu",
+  "k.chorazewicz@berkeley.edu": "Kai",
+
+  "Rishma Murugan": "rishma.murugan@berkeley.edu",
+  "rishma.murugan@berkeley.edu": "Rishma",
+
+  "Daniel Jing": "daniel.jing@berkeley.edu",
+  "daniel.jing@berkeley.edu": "Daniel",
+
+  "Erel Saul": "erelsaul@berkeley.edu",
+  "erelsaul@berkeley.edu": "Erel",
+
+  "Neha N.": "neha.nagabothu@berkeley.edu",
+  "neha.nagabothu@berkeley.edu": "Neha",
+
+  "Aadhrik Kuila": "aadhrik.kuila@berkeley.edu",
+  "aadhrik.kuila@berkeley.edu": "Aadhrik",
+
+  "Alara Guler": "alara.guler@berkeley.edu",
+  "alara.guler@berkeley.edu": "Alara",
+
+  "Alexander Manes": "alexander.manes@berkeley.edu",
+  "alexander.manes@berkeley.edu": "Alex",
+
+  "Amy Guo": "amyguo@berkeley.edu",
+  "amyguo@berkeley.edu": "Amy",
+
+  "Andrew Kirillov": "akirillo@berkeley.edu",
+  "akirillo@berkeley.edu": "Andrew",
+
+  "Anika Ramachandran": "anikar@berkeley.edu",
+  "anikar@berkeley.edu": "Anika",
+
+  "Ashvin Dhawan": "ashvindhawan@berkeley.edu",
+  "ashvindhawan@berkeley.edu": "Ashvin",
+
+  "Austin Sun": "austin.jsun@berkeley.edu",
+  "austin.jsun@berkeley.edu": "Austin",
+
+  "Birkaran Sachdev": "birkaransachdev@berkeley.edu",
+  "birkaransachdev@berkeley.edu": "Birks",
+
+  "Chai Goyal":"chaigoyal@berkeley.edu",
+  "chaigoyal@berkeley.edu":"Chai",
+
+  "Charlie Faramarzi":"charlie.faramarzi@berkeley.edu",
+  "charlie.faramarzi@berkeley.edu":"Charlie",
+
+  "Chelsea Lo":"chelsealo@berkeley.edu",
+  "chelsealo@berkeley.edu":"Chelsea",
+
+  "David Shau":"davidshau22@berkeley.edu",
+  "davidshau22@berkeley.edu":"David",
+
+  "Dev Ojha":"dev.ojha@berkeley.edu",
+  "dev.ojha@berkeley.edu":"Dev",
+
+  "Deven Navani":"dnavani@berkeley.edu",
+  "dnavani@berkeley.edu":"Deven",
+
+  "Diego Gonzalez":"d_gonzalez@berkeley.edu",
+  "d_gonzalez@berkeley.edu":"Diego",
+
+  "Ethan Mehta":"ethanbmehta@berkeley.edu",
+  "ethanbmehta@berkeley.edu":"Ethan",
+
+  "Francis Indaheng":"findaheng@berkeley.edu",
+  "findaheng@berkeley.edu":"Francis",
+
+  "Hannah Vinh":"hvinh@berkeley.edu",
+  "hvinh@berkeley.edu":"Hannah",
+
+  "Harish Palani":"harishpalani@berkeley.edu",
+  "harishpalani@berkeley.edu":"Harish",
+
+  "Isabelle Zhou":"isabellezhou@berkeley.edu",
+  "isabellezhou@berkeley.edu":"Isabelle",
+
+  "Jahnvi Doshi":"jahnvidoshi@berkeley.edu",
+  "jahnvidoshi@berkeley.edu":"Jahnvi",
+
+  "Jaiveer Singh":"j.singh@berkeley.edu",
+  "j.singh@berkeley.edu":"Jaiveer",
+
+  "Julius Vering":"julius.vering@berkeley.edu",
+  "julius.vering@berkeley.edu":"Julius",
+
+  "Kelly Han":"kelly_han@berkeley.edu",
+  "kelly_han@berkeley.edu":"Kelly",
+
+  "Luofei Chen":"chenluofei@berkeley.edu",
+  "chenluofei@berkeley.edu":"Luofei",
+
+  "Manav Rathod":"manav.rathod@berkeley.edu",
+  "manav.rathod@berkeley.edu":"Manav",
+
+  "Matthew Hallac":"matthew.hallac@berkeley.edu",
+  "matthew.hallac@berkeley.edu":"Matt",
+
+  "Michael McNabb":"michael.mcnabb@berkeley.edu",
+  "michael.mcnabb@berkeley.edu":"Michael M.",
+
+  "Michael Trehan":"michael.trehan@berkeley.edu",
+  "michael.trehan@berkeley.edu":"Michael T.",
+
+  "Neha Hudait":"nhudait@berkeley.edu",
+  "nhudait@berkeley.edu":"Neha H.",
+
+  "Nikhil Mandava":"nikmandava@berkeley.edu",
+  "nikmandava@berkeley.edu":"Nikhil",
+
+  "Nishi Kaza":"nishikaza@berkeley.edu",
+  "nishikaza@berkeley.edu":"Nishi",
+
+  "Prangan Tooteja":"prangan.tooteja@berkeley.edu",
+  "prangan.tooteja@berkeley.edu":"Prangan",
+
+  "Quin Etnyre":"quinetnyre@berkeley.edu",
+  "quinetnyre@berkeley.edu":"Quin",
+
+  "Rahul Hayaran":"rahul.hayaran@berkeley.edu",
+  "rahul.hayaran@berkeley.edu":"Rahul",
+
+  "Richard Liu":"richard.y.liu@berkeley.edu",
+  "richard.y.liu@berkeley.edu":"Richard",
+
+  "Rimika Banerjee":"rimikabanerjee@berkeley.edu",
+  "rimikabanerjee@berkeley.edu":"Rimika",
+
+  "Ryan Chen":"ryanwchen@berkeley.edu",
+  "ryanwchen@berkeley.edu":"Ryan",
+
+  "Sean Lin":"seanlin2000@berkeley.edu",
+  "seanlin2000@berkeley.edu":"Sean",
+
+  "Shiyuan Guo":"sguo35@berkeley.edu",
+  "sguo35@berkeley.edu":"Shiyuan",
+
+  "Sravya Basvapatri":"sravyab@berkeley.edu",
+  "sravyab@berkeley.edu":"Sravya",
+
+  "Vikram Shirsat":"vshirsat@berkeley.edu",
+  "vshirsat@berkeley.edu":"Vikram",
+
+  "Vincent Wang":"v.wang@berkeley.edu",
+  "v.wang@berkeley.edu":"Vincent",
+
+  "Elliot Larson":"elliot.larson@berkeley.edu",
+  "elliot.larson@berkeley.edu":"Elliot",
+
+  "Alfonso Sanchez":"fonzy@berkeley.edu",
+  "fonzy@berkeley.edu":"Alfonso",
+
+  "gwynevere.hunger@berkeley.edu" : "Gwynevere",
+  "admin@admin.edu": "Admin",
+  "s.t@berkeley.edu": "Stephen"
+	
 };
+
 var testinput;
+
 function getstudent(){
   window.testinput = document.getElementById("testinput").value.toString();
   console.log(testinput)
